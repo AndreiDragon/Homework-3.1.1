@@ -18,24 +18,38 @@
 1. Создать проект Main.java.
 2. Ввести код и запустить его выполнение:
 "public class Main {
+
     public static void main(String[] args) {
+
         int balance = 2;
+
         int transfer = 5;
+
         int total = balance + transfer;
+
         System.out.println(total);
+
     }
+
 }"
 Ожидаемый результат: значение "total" = 7.
 * Тест-кейс №2. Проверка арифметических вычислений больших чисел.
 1. Создать проект Main.java.
 2. ввести код и запустить его выполнение:
 "public class Main {
+
     public static void main(String[] args) {
+
         int balance = 2_000_000_000;
+
         int transfer = 500_000_000;
+
         int total = balance + transfer;
+
         System.out.println(total);
+        
     }
+
 }"
 Ожидаемый результат: значение "total" = 2_500_000_000.
 
